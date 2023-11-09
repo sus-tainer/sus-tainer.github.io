@@ -51,13 +51,13 @@ We decided to present the model in this way to easily keep track of the ownershi
 
 Here is an example schematic of the database:
 
-<img src="doc/sustainer-DB-diagram.png" alt="">
+<img src="doc/sustainer-DB-diagram.png" alt="" style="padding-top: 5px; padding-bottom: 5px">
 
 The fields labeled **PK** (Email for Accounts) indicate that this is a unique value so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection. The label **FK** represents the foreign keys that are used from other collections.
 
 ### Application Flowchart
 
-<img src="doc/sustainer-flow-chart.png" alt="">
+<img src="doc/sustainer-flow-chart.png" alt="" style="padding-top: 5px; padding-bottom: 5px">
 
 
 ## User Guide (Mockups)
@@ -67,42 +67,42 @@ This section provides a mockup walkthrough of the Sustainer user interface and i
 ### Landing Page
 The landing page is presented to users when they first visit the site. It provides a brief overview and purpose of the app.
 
-<img src="doc/landing-page.png" alt="">
+<img src="doc/landing-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### UserRegistration Page
 To order the reusable containers at events, users must sign up by clicking on the "Sign up" dropdown menu in the upper right corner of the navbar. This registers the user into a system at a certain event and generates a QR code to act as an "ID" for the event.
 
-<img src="doc/register-page.png" alt="">
+<img src="doc/register-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Login Page
 For returning users, click on the “Login” button in the dropdown located in upper right corner of the navbar, then select “Sign in” to go to get your newly-generated QR code for the event. You must have been previously registered with the system to use this option:
 
-<img src="doc/login-page.png" alt="">
+<img src="doc/login-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### User Home Page
 After logging in, you are taken to the home page, which presents generic information on how to use the app. On this page, there are options to link your credit card information and get your QR code. 
 
-<img src="doc/user-home-page.png" alt="">
+<img src="doc/user-home-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### QR Code Generator
 Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
 
-<img src="doc/qr-code-generator.png" alt="">
+<img src="doc/qr-code-generator.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Payment Portal
 Clicking on "Choose Payment Method" will direct you to form where you can link and input your credit card information. Credit card information is used as collateral for any containers that are ordered and **not** returned within a specific limit or duration of the ongoing event. Upon ordering containers, there will be a pending charge based on the number of containers ordered, with each container charged at a flat rate. Payment will not be processed on your account if containers are returned before the end of the event.
 
-<img src="doc/payment-page.png" alt="">
+<img src="doc/payment-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Vendor Order Form
 Upon log in as a vendor, a form is displayed to allow vendors to order a certain number of containers for an event. This allows the Full Cycle Takeout program to accurately distribute the right number of containers to each vendor before a customer uses them when ordering take-out at the event.
 
-<img src="doc/vendor-order-form.png" alt="">
+<img src="doc/vendor-order-form.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Admin Stats Page
 Upon log in as an admin, moderators and administrators can view all containers during an event to accurately track them. This will display all the available containers, as well as the owner that is assigned or responsible for a specific container. The database table UI will also have a search and filter function to find a certain container and check if a specific user has returned their containers respectively. 
 
-<img src="doc/admin-stats-tracking-page.png" alt="">
+<img src="doc/admin-stats-tracking-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 There is also a percentage graphic to show the retention rate of the containers. The pie chart will update in real-time when containers are taken out and returned by customers at the event. An environmental graphic will also correspond with the percentage of the containers that are returned. This will indicate the effectiveness of the take-out and return procedure at events, while also evaluating the "efficiency" of this app's functionality.
 
