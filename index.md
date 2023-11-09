@@ -1,6 +1,6 @@
 # Sustainer
 
-Sustainer is a reusable container tracking app that helps users and Zero Waste O'ahu, a non-profit, stay accountable for the return of reusable containers at large events. The initial Full Cycle Takeout pilot program, responsible for creating and renting out reusable takeout containers, has already shown promise in reducing waste for restaurants, but has struggled with the return of the containers. This makes the program unsustainable financially and detrimental to the planet. Failing to solve this problem leads to more one-time use products becoming trash and more reusable containers needing to be produced. Sustainer aims to solve this problem by providing a platform for Zero Waste O'ahu to track rented out containers and provide incentives for their return. 
+Sustainer is a reusable container tracking app that helps users and the non-profit Zero Waste O'ahu stay accountable for the return of reusable takeout containers at large events. The initial Full Cycle Takeout pilot program, responsible for creating and renting out reusable takeout containers, has already shown promise in reducing waste for restaurants, but has struggled with the return of the containers. This makes the program unsustainable financially and unsustainable for the planet. Failing to solve this problem leads to more one-time use products becoming trash and more reusable containers needing to be produced. Sustainer aims to solve this problem by providing a platform for Zero Waste O'ahu to track rented out containers and provide incentives for their return. 
 
 ## Goals
 
@@ -13,18 +13,29 @@ Sustainer aims to provide the following features:
 <li>QR code scanning and generation</li>
 <li>Tracking of returned and non-returned containers</li>
 
-## Installation
+## Milestone 1: Mockup development
 
-First, [install Meteor](https://www.meteor.com/install).
+The goal of Milestone 1 was to create a work flow for the app and create a mockup of the app's UI.
 
-Second, go to [download a copy of Digits](https://github.com/thomasarivera/digits), and click the "<> Code" button. Clone the repository. Note that Digits is a private repo and so you will need to request permission from the autyhor to gain access to the repo.
+Milestone 1 was managed using sus-tainer GitHub Project Board M1:
 
-Third, cd into the app/ directory and install libraries with:
-```
-$ meteor npm install
-```
+<img src="doc/M1.png" width="750px">
 
-Once the libraries are installed, run the application by involing:
-```
-$ meteor npm run start
-```
+### Application Flowchart
+
+<img src="doc/sustainer-flow-chart.png" width="600px">
+
+## Mockups
+
+### Login Page
+<img src="doc/Login-page.png" width="600px">
+
+### Payment Portal
+<img src="doc/payment-page.png" width="600px">
+
+### UserRegistration Page
+<img src="doc/register-page.png" width="600px">
+
+## Team
+
+Sustainer is designed and developed by Aaron Lander Anchetea, Nathaniel Murray, Jaren Pinera, Thomas Rivera, and Sage Suzuki.
