@@ -29,8 +29,8 @@ Our web app aims to provide the following features:
 
 <li>Account registration</li>
 <li>Reusable container ownership tracking</li>
-<li>Ordering containers from venders</li>
-<li>Distributing containers to venders from organization</li>
+<li>Ordering containers from vendors</li>
+<li>Distributing containers to vendors from organization</li>
 <li>Collateral payments if a container is not returned</li>
 <li>QR code scanning and generation</li>
 <li>Tracking of returned and non-returned containers</li>
@@ -42,35 +42,65 @@ The following describes the design process for our app:
 
 ### Data model
 
-As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
+The data model for Sustainer consists of two "primary" collections (Accounts and Containers), along with one "join" Collections (ContainersByRole) and one supplemental collection (Credit Card). 
 
-Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
+We decided to present the model in this way to easily keep track of the ownership for each container. Here are some reasons for our design:
+* The _role_ field has possibilities of user, vendor, or admin, which will indicate the navigation routes of UI pages upon log in. It will also be used to transfer ownership of a container from an admin (organization worker) to a vendor to a user (customer at the event). 
+* The CreditCard collection allows us to link a payment method as collateral for the containers that are ordered. In the scenario where they don't return the containers after the event is over, they will be charged accordingly. 
+* Multiple containers can be assigned to a single user. The ContainersByRole join collection help us to easily filter the number of containers by a specific user or owner when an admin/moderator wants to check which containers are available and returned. 
 
-Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
+Here is an example schematic of the database:
 
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
+<img src="doc/sustainer-DB-diagram.png" alt="">
 
-![](images/data-model.png)
-
-The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
+The fields labeled **PK** (Email for Accounts) indicate that this is a unique value so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection. The label **FK** represents the foreign keys that are used from other collections.
 
 ### Application Flowchart
 
-<img src="doc/sustainer-flow-chart.png" width="600px">
+<img src="doc/sustainer-flow-chart.png" alt="">
 
 
 ## User Guide (Mockups)
 
 This section provides a mockup walkthrough of the Sustainer user interface and its capabilities.
 
-### Login Page
-<img src="doc/Login-page.png" width="600px">
+### Landing Page
+The landing page is presented to users when they first visit the site. It provides a brief overview and purpose of the app.
 
-### Payment Portal
-<img src="doc/payment-page.png" width="600px">
+<img src="doc/Login-page.png" alt="">
 
 ### UserRegistration Page
-<img src="doc/register-page.png" width="600px">
+To order the reusable containers at events, users must sign up by clicking on the "Sign up" dropdown menu in the upper right corner of the navbar. This registers the user into a system at a certain event and generates a QR code to act as an "ID" for the event.
+
+<img src="doc/register-page.png" alt="">
+
+### Login Page
+For returning users, click on the “Login” button in the dropdown located in upper right corner of the navbar, then select “Sign in” to go to get your newly-generated QR code for the event. You must have been previously registered with the system to use this option:
+
+<img src="doc/Login-page.png" alt="">
+
+### User Home Page
+After logging in, you are taken to the home page, which presents generic information on how to use the app. On this page, there are options to link your credit card information and get your QR code. 
+
+### QR Code Generator
+Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
+
+### Payment Portal
+Clicking on "Choose Payment Method" will direct you to form where you can link and input your credit card information. Credit card information is used as collateral for any containers that are ordered and **not** returned within a specific limit or duration of the ongoing event. Upon ordering containers, there will be a pending charge based on the number of containers ordered, with each container charged at a flat rate. Payment will not be processed on your account if containers are returned before the end of the event.
+
+<img src="doc/payment-page.png" alt="">
+
+### Vendor Order Form
+Upon log in as a vendor, a form is displayed to allow vendors to order a certain number of containers for an event. This allows the Full Cycle Takeout program to accurately distribute the right number of containers to each vendor before a customer uses them when ordering take-out at the event.
+
+### Admin Stats Page
+Upon log in as an admin, moderators and administrators can view all containers during an event to accurately track them. This will display all the available containers, as well as the owner that is assigned or responsible for a specific container. The database table UI will also have a search and filter function to find a certain container and check if a specific user has returned their containers respectively. 
+
+<img src="doc/admin-stats-tracking-page.png" alt="">
+
+There is also a percentage graphic to show the retention rate of the containers. The pie chart will update in real-time when containers are taken out and returned by customers at the event. An environmental graphic will also correspond with the percentage of the containers that are returned. This will indicate the effectiveness of the take-out and return procedure at events, while also evaluating the "efficiency" of this app's functionality.
+
+image
 
 ## Development History
 
@@ -82,7 +112,7 @@ The goal of Milestone 1 was to create a work flow for the app to identify its ma
 
 Milestone 1 was managed using [Sus-tainer GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
 
-<img src="doc/M1.png" width="750px">
+<img src="doc/M1.png" alt="">
 
 ## Milestone 2: Expected Upcoming Issues
 
@@ -90,7 +120,7 @@ We expect the following issues to continue toward Milestone 2:
 
 [Sus-tainer GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
 
-![](images/project-board-2.png)
+<img src="doc/M1.png" alt="">
 
 ## Team
 
@@ -309,7 +339,6 @@ Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.
 As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
 
 Need to do:
-1. Link Team contract
 2. Update User guide w/ screenshots
 3. App design and data model
 4. M1 and M2 project fix w/ issues, then right screenshot
