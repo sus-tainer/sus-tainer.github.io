@@ -106,14 +106,14 @@ Upon log in as an admin, moderators and administrators can view all containers d
 
 There is also a percentage graphic to show the retention rate of the containers. The pie chart will update in real-time when containers are taken out and returned by customers at the event. An environmental graphic will also correspond with the percentage of the containers that are returned. This will indicate the effectiveness of the take-out and return procedure at events, while also evaluating the "efficiency" of this app's functionality.
 
-<div class="text-center p-4" style="padding-top: 5px; padding-bottom: 5px">
-  <img width="200px" src="doc/green-warning.jpg" alt="" class="img-thumbnail" >
-  <img width="200px" src="doc/blue-warning.png" alt="" class="img-thumbnail" >
+<div class="justify-content-center text-center p-4" style="padding-top: 5px; padding-bottom: 5px">
+  <img width="400px" src="doc/green-warning.jpg" alt="" class="img-thumbnail" >
+  <img width="400px" src="doc/blue-warning.png" alt="" class="img-thumbnail" >
 </div>
 
-<div class="text-center p-4" style="padding-top: 5px; padding-bottom: 50px">
-  <img width="200px" src="doc/yellow-warning.png" alt="" class="img-thumbnail" >
-  <img width="200px" src="doc/red-warning.png" alt="" class="img-thumbnail" >
+<div class="justify-content-center text-center p-4" style="padding-top: 5px; padding-bottom: 50px">
+  <img width="400px" src="doc/yellow-warning.png" alt="" class="img-thumbnail" >
+  <img width="400px" src="doc/red-warning.png" alt="" class="img-thumbnail" >
 </div>
 
 ## Development History
