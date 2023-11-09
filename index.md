@@ -1,172 +1,44 @@
 # Sustainer
 
+[View our organization](https://github.com/sus-tainer)
+
 ## Table of contents
 
 * [Overview](#overview)
-* [Deployment](#deployment)
-* [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
-* [Developer Guide](#developer-guide)
+* [Goals](#goals-of-the-app)
+* [Application Design](#application-design)
+  * [Data Model](#data-model)
+  * [Flowchart](#application-flowchart)
+* [User Guide](#user-guide-mockups)
 * [Development History](#development-history)
-* [Continuous Integration](#continuous-integration)
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
+  * [Milestone 1](#milestone-1-identifying-basic-user-needs--mockup-page-development)
+  * [Milestone 2](#milestone-2-expected-upcoming-issues)
 * [Team](#team)
+* [Developer Guide](#developer-guide)
+* [Community Feedback](#community-feedback)
+* [Deployment](#deployment)
 
 ## Overview
 
 ### What is Sustainer?
 Sustainer is a reusable container tracking app that helps users and the non-profit Zero Waste O'ahu stay accountable for the return of reusable takeout containers at large events. The initial Full Cycle Takeout pilot program, responsible for creating and renting out reusable takeout containers, has already shown promise in reducing waste for restaurants, but has struggled with the return of the containers. This makes the program unsustainable financially and unsustainable for the planet. Failing to solve this problem leads to more one-time use products becoming trash and more reusable containers needing to be produced. Sustainer aims to solve this problem by providing a platform for Zero Waste O'ahu to track rented out containers and provide incentives for their return. 
 
-## Goals
+## Goals of the app
 
-Sustainer aims to provide the following features:
+Our web app aims to provide the following features:
 
 <li>Account registration</li>
 <li>Reusable container ownership tracking</li>
-<li>Container ordering from venders</li>
+<li>Ordering containers from venders</li>
+<li>Distributing containers to venders from organization</li>
 <li>Collateral payments if a container is not returned</li>
 <li>QR code scanning and generation</li>
 <li>Tracking of returned and non-returned containers</li>
 
-## Milestone 1: Mockup development
 
-The goal of Milestone 1 was to create a work flow for the app and create a mockup of the app's UI.
+## Application Design
 
-Milestone 1 was managed using sus-tainer GitHub Project Board M1:
-
-<img src="doc/M1.png" width="750px">
-
-### Application Flowchart
-
-<img src="doc/sustainer-flow-chart.png" width="600px">
-
-## Mockups
-
-### Login Page
-<img src="doc/Login-page.png" width="600px">
-
-### Payment Portal
-<img src="doc/payment-page.png" width="600px">
-
-### UserRegistration Page
-<img src="doc/register-page.png" width="600px">
-
-## Team
-
-Sustainer is designed and developed by Aaron Lander Anchetea, Nathaniel Murray, Jaren Pinera, Thomas Rivera, and Sage Suzuki.
-
-
-
-
-
-
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
-
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
-* [React](https://reactjs.org/) for component-based UI implementation and routing.
-* [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
-
-It also provides code that implements a variety of useful design concepts, including:
-
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
-* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
-* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
-
-## User Guide
-
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
-
-### Landing Page
-
-The landing page is presented to users when they visit the top-level URL to the site.
-
-![](images/landing-page.png)
-
-### Index pages (Projects, Profiles, Interests)
-
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
-
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
-
-![](images/profiles-page.png)
-
-The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
-
-![](images/projects-page.png)
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-![](images/interests-page.png)
-
-
-### Sign in and sign up
-
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
-
-![](images/signin-page.png)
-
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
-
-![](images/signup-page.png)
-
-### Home page
-
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
-
-![](images/home-page.png)
-
-### Add Project page
-
-Once you are logged in, you can define new projects with the Add Project page:
-
-![](images/add-project-page.png)
-
-
-### Filter page
-
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
-
-![](images/filter-page.png)
-
-## Community Feedback
-
-We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
-
-## Developer Guide
-
-This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
-
-### Installation
-
-First, [install Meteor](https://www.meteor.com/install).
-
-Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
-
-Third, cd into the bowfolios/app directory and install libraries with:
-
-```
-$ meteor npm install
-```
-
-Fourth, run the system with:
-
-```
-$ meteor npm run start
-```
-
-If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
-
-### Application Design
-
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+The following describes the design process for our app:
 
 ### Data model
 
@@ -182,7 +54,94 @@ Bowfolios implements Design choice #2 to provide pair-wise relations between all
 
 The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
 
+### Application Flowchart
 
+<img src="doc/sustainer-flow-chart.png" width="600px">
+
+
+## User Guide (Mockups)
+
+This section provides a mockup walkthrough of the Sustainer user interface and its capabilities.
+
+### Login Page
+<img src="doc/Login-page.png" width="600px">
+
+### Payment Portal
+<img src="doc/payment-page.png" width="600px">
+
+### UserRegistration Page
+<img src="doc/register-page.png" width="600px">
+
+## Development History
+
+The following describes the process of building the app from the design process to code implementation and deployment. Our progress is as follows:
+
+## Milestone 1: Identifying Basic User Needs & Mockup Page Development
+
+The goal of Milestone 1 was to create a work flow for the app to identify its main features to solve the problem of user accountability and container retention rate. We focused on creating a mockup of the app's UI.
+
+Milestone 1 was managed using [Sus-tainer GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
+
+<img src="doc/M1.png" width="750px">
+
+## Milestone 2: Expected Upcoming Issues
+
+We expect the following issues to continue toward Milestone 2:
+
+[Sus-tainer GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
+
+![](images/project-board-2.png)
+
+## Team
+
+**[Our team contract](https://docs.google.com/document/d/14BCHuLKtjr0m7UcoQ2BcsHvO0r9Z21xhZkRsPpTkm4c/edit?usp=sharing)**
+
+Sustainer is designed and developed by:
+* [Aaron Lander Ancheta](https://github.com/aaron-ancheta)
+* [Nathaniel Murray](https://github.com/murrayn808)
+* [Jaren Pinera](https://github.com/jpinera)
+* [Thomas Rivera](https://github.com/thomasarivera)
+* [Sage Suzuki](https://github.com/sage-suzuki)
+
+
+
+## Developer Guide
+
+This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+### Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, visit the [Sustainer application GitHub page](https://github.com/sus-tainer/sustainer), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+
+Third, cd into the sustainer/app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+## Community Feedback
+
+**_In progress_**
+
+We are interested in your experience using Sustainer! A form will soon be created to list any suggestions on improving the app.
+
+
+## Deployment
+
+**_Our app deployment is in progress_**
+
+
+<!--
 ## Initialization
 
 The [config](https://github.com/bowfolios/bowfolios/tree/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/main/config/settings.development.json).
@@ -314,37 +273,32 @@ BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/
 The workflow definition file is quite simple and is located at
 [.github/workflows/ci.yml](https://github.com/bowfolios/bowfolios/blob/main/.github/workflows/ci.yml).
 
-## Development History
+* [Continuous Integration](#continuous-integration)
+* [Walkthrough videos](#walkthrough-videos)
+* [Example enhancements](#example-enhancements)
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
-* Development consists of a sequence of Milestones.
-* Each Milestone is specified as a set of tasks.
-* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-* Tasks should typically consist of work that can be completed in 2-4 days.
-* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
-* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
-The following sections document the development history of BowFolios.
+* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
+* [React](https://reactjs.org/) for component-based UI implementation and routing.
+* [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
+* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
 
-### Milestone 1: Mockup development
+It also provides code that implements a variety of useful design concepts, including:
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
+* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
+* Initialization code to define default Profiles, Interests, and Projects and relations between them.
+* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
+* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
+* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
+* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
+* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
+* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
+-->
 
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
-
-![](images/project-board-1.png)
-
-### Milestone 2: Data model development
-
-The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
-
-Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
-
-![](images/project-board-2.png)
-
-## Milestone 3: Final touches
+<!--
+## Milestone 3: 
 
 The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
@@ -354,30 +308,11 @@ Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.
 
 As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
 
-## Walkthrough videos
-
-BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
-
-* [BowFolios Part 1: Application Overview (5 min)](https://www.youtube.com/watch?v=5lXSLf9VHqw)
-* [BowFolios Part 2: Application Structure and Control Flow (14 min)](https://www.youtube.com/watch?v=hQYc8UK4K7w)
-* [BowFolios Part 3: Data Model, Data Initialization, Publications and Subscriptions (27 min)](https://www.youtube.com/watch?v=pcZg_44Ssdk)
-* [BowFolios Part 4: Forms and Meteor Methods (20 min)](https://www.youtube.com/watch?v=TLavamIYaEc)
-* [BowFolios Part 5: Loading data using Assets (8 min)](https://www.youtube.com/watch?v=NzrTzBPCJPo)
-* [BowFolios Part 6: End-to-End testing in BowFolios (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
-
-## Example enhancements
-
-There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
-
-* Display an email icon that links to a mailto: for each user in the profile page.
-* Display the home page for each project as a home icon. Click on it to visit the Project's home page.
-* Add social media accounts to the profile (facebook, twitter, instagram) and show the associated icon in the Profile.
-* The system supports the definition of users with an Admin role, but there are no Admin-specific capabilities. Implement some Admin-specific functions, such as the ability to delete users or add/modify/delete Interests.
-* There is no way to edit or delete a project definition. Add this ability.
-* It would be nice for users to only be able to edit the Projects that they have created.  Add an "owner" field to the Project collection, and then only allow a user to edit a Project definition if they own it.
-* The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Meteor Method to "catch" errors of this type and re-throw with a more informative error message.
-* The testcafe acceptance tests only test successful form submissions. Add a test in which you fill out a form incorrectly (perhaps omitting a required field) and then test to ensure that the form does not submit successfully.
-
-## Team
-
-BowFolios is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
+Need to do:
+1. Link Team contract
+2. Update User guide w/ screenshots
+3. App design and data model
+4. M1 and M2 project fix w/ issues, then right screenshot
+5. Copy all contents to repo and name issue branches accordingly
+6. (Make team logo)
+-->
