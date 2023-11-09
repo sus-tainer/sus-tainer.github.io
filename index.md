@@ -353,7 +353,6 @@ As of the time of writing, this screenshot shows that there is an ongoing task (
 
 Need to do:
 1. M1 and M2 project fix w/ issues, then right screenshot (check if correct)
-2. Update User guide w/ screenshots
 5. Copy all contents to repo and name issue branches accordingly
 6. Pitch
 8. (Make team logo)
