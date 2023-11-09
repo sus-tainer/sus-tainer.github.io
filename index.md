@@ -112,8 +112,8 @@ There is also a percentage graphic to show the retention rate of the containers.
 </div>
 
 <div class="justify-content-center text-center p-4" style="padding-top: 5px; padding-bottom: 50px">
-  <img width="400px" src="doc/yellow-warning.png" alt="" class="img-thumbnail" >
-  <img width="400px" src="doc/red-warning.png" alt="" class="img-thumbnail" >
+  <img width="400px" src="doc/yellow-warning.png" alt="" class="img-thumbnail p-3" >
+  <img width="400px" src="doc/red-warning.png" alt="" class="img p-3" >
 </div>
 
 ## Development History
