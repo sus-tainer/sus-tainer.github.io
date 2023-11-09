@@ -131,11 +131,11 @@ We expect the following issues to continue toward Milestone 2:
 **[Our team contract](https://docs.google.com/document/d/14BCHuLKtjr0m7UcoQ2BcsHvO0r9Z21xhZkRsPpTkm4c/edit?usp=sharing)**
 
 Sustainer is designed and developed by:
-* **[Aaron Lander Ancheta]**(https://github.com/aaron-ancheta) || [View Profile](https://aaron-ancheta.github.io/)
-* **[Nathaniel Murray]**(https://github.com/murrayn808) || [View Profile](https://murrayn808.github.io/)
-* **[Jaren Pinera]**(https://github.com/jpinera) || [View Profile](https://jpinera.github.io/)
-* **[Thomas Rivera]**(https://github.com/thomasarivera) || [View Profile](https://thomasarivera.github.io/)
-* **[Sage Suzuki]**(https://github.com/sage-suzuki) || [View Profile](https://sage-suzuki.github.io/)
+* [**Aaron Lander Ancheta**](https://github.com/aaron-ancheta) || [View Profile](https://aaron-ancheta.github.io/)
+* [**Nathaniel Murray**](https://github.com/murrayn808) || [View Profile](https://murrayn808.github.io/)
+* [**Jaren Pinera**](https://github.com/jpinera) || [View Profile](https://jpinera.github.io/)
+* [**Thomas Rivera**](https://github.com/thomasarivera) || [View Profile](https://thomasarivera.github.io/)
+* [**Sage Suzuki**](https://github.com/sage-suzuki) || [View Profile](https://sage-suzuki.github.io/)
 
 
 
@@ -345,7 +345,6 @@ As of the time of writing, this screenshot shows that there is an ongoing task (
 Need to do:
 1. M1 and M2 project fix w/ issues, then right screenshot (check if correct)
 2. Update User guide w/ screenshots
-3. Fix spacing of pictures
 4. Test if all links work
 5. Copy all contents to repo and name issue branches accordingly
 6. Pitch
