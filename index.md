@@ -115,7 +115,7 @@ The following describes the process of building the app from the design process 
 
 The goal of Milestone 1 was to create a work flow for the app to identify its main features to solve the problem of user accountability and container retention rate. We focused on creating a mockup of the app's UI.
 
-Milestone 1 was managed using [Sus-tainer GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
+Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github.com/orgs/sus-tainer/projects/1):
 
 <img src="doc/M1.png" alt="">
 
@@ -123,9 +123,8 @@ Milestone 1 was managed using [Sus-tainer GitHub Project Board M1](https://githu
 
 We expect the following issues to continue toward Milestone 2:
 
-[Sus-tainer GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
+[Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2):
 
-<img src="doc/M1.png" alt="">
 
 ## Team
 
