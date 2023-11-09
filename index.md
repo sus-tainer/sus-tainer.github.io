@@ -87,6 +87,8 @@ After logging in, you are taken to the home page, which presents generic informa
 ### QR Code Generator
 Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
 
+<img src="doc/qr-code-generator.png" alt="">
+
 ### Payment Portal
 Clicking on "Choose Payment Method" will direct you to form where you can link and input your credit card information. Credit card information is used as collateral for any containers that are ordered and **not** returned within a specific limit or duration of the ongoing event. Upon ordering containers, there will be a pending charge based on the number of containers ordered, with each container charged at a flat rate. Payment will not be processed on your account if containers are returned before the end of the event.
 
@@ -104,7 +106,6 @@ Upon log in as an admin, moderators and administrators can view all containers d
 
 There is also a percentage graphic to show the retention rate of the containers. The pie chart will update in real-time when containers are taken out and returned by customers at the event. An environmental graphic will also correspond with the percentage of the containers that are returned. This will indicate the effectiveness of the take-out and return procedure at events, while also evaluating the "efficiency" of this app's functionality.
 
-image
 
 ## Development History
 
