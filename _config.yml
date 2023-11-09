@@ -6,6 +6,7 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: true
   repository_url: https://github.com/sus-tainer/sustainer
+  base_url: https://github.com/sus-tainer
 gems:
   - jekyll-mentions
 
