@@ -177,7 +177,7 @@ The following describes the process of building the app from the design process 
 
 The goal of Milestone 1 was to create a work flow for the app to identify its main features to solve the problem of user accountability and container retention rate. We focused on creating a mockup of the app's UI.
 
-Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github.com/orgs/sus-tainer/projects/1/views/2):
+Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github.com/orgs/sus-tainer/projects/1/views/2)
 
 <img src="doc/M1.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
@@ -185,7 +185,7 @@ Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github
 
 The goal of Milestone 2 is to create all the basic components of the app. For backend, this includes implementing all the relational databases properly and ensuring that all functionalities for QR code reading and scanning work properly. For frontend, we will focus on creating simple layouts for all the webpages and check that all web pages and nav links in the menu bar navigate correctly based on the role of an account user.
 
-Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2):
+Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2)
 
 <img src="doc/M2.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
@@ -193,7 +193,7 @@ Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github
 
 We expect the following issues to continue toward Milestone 3:
 
-[Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2):
+[Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
 
 
 ## Team
