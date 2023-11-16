@@ -62,7 +62,7 @@ The fields labeled **PK** (Email for Accounts) indicate that this is a unique va
 <img src="doc/sustainer-flow-chart.png" alt="" style="padding-top: 5px; padding-bottom: 5px">
 
 
-## User Guide
+## User Guide (Updated Progress)
 
 This section provides a mockup walkthrough of the Sustainer user interface and its capabilities.
 
@@ -181,7 +181,7 @@ Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github
 
 <img src="doc/M1.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
-### Milestone 2: Expected Upcoming Issues
+### Milestone 2: Basic Skeleton of All Pages, QR Code Functionality
 
 The goal of Milestone 2 is to create all the basic components of the app. For backend, this includes implementing all the relational databases properly and ensuring that all functionalities for QR code reading and scanning work properly. For frontend, we will focus on creating simple layouts for all the webpages and check that all web pages and nav links in the menu bar navigate correctly based on the role of an account user.
 
