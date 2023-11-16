@@ -94,8 +94,8 @@ After logging in, you are taken to the home page, which presents generic informa
 
 Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
 
-<div class="justify-content-center text-center p-4" style="padding-top: 5px; padding-bottom: 5px">
-    <img src="doc/qr-code-generator.png" alt="" height="750px" style="padding-top: 5px; padding-bottom: 50px">
+<div class="justify-content-center text-center my-auto p-4" style="padding-top: 5px; padding-bottom: 5px">
+    <img src="doc/qr-code-generator.png" alt="" height="750px" style="padding-top: 5px; padding-bottom: 50px; margin: auto">
 </div>
 
 ### Payment Portal
