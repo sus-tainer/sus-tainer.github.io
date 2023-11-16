@@ -10,13 +10,13 @@
   * [Data Model](#data-model)
   * [Flowchart](#application-flowchart)
 * [User Guide](#user-guide-mockups)
+* [Developer Guide](#developer-guide)
+  * [Download & Installation](#installation)
+  * [Deployment](#deployment)
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-identifying-basic-user-needs--mockup-page-development)
   * [Milestone 2](#milestone-2-expected-upcoming-issues)
 * [Team](#team)
-* [Developer Guide](#developer-guide)
-  * [Download & Installation](#installation)
-  * [Deployment](#deployment)
 * [Community Feedback](#community-feedback)
 
 ## Overview
@@ -127,7 +127,7 @@ First, [install Meteor](https://www.meteor.com/install).
 
 Second, visit the [Sustainer application GitHub page](https://github.com/sus-tainer/sustainer), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
-Third, cd into the sustainer/app directory and install libraries with:
+Third, cd into the _sustainer/app_ directory and install libraries with:
 
 ```
 $ meteor npm install
@@ -143,7 +143,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Deployment
 
-**_Our app deployment is in progress_**
+You can view our deployed app [**here**](http://146.190.145.195/): [http://146.190.145.195/](http://146.190.145.195/)
 
 ## Development History
 
@@ -159,16 +159,19 @@ Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github
 
 ### Milestone 2: Expected Upcoming Issues
 
-We expect the following issues to continue toward Milestone 2:
+The goal of Milestone 2 is to create all the basic components of the app. For backend, this includes implementing all the relational databases properly and ensuring that all functionalities for QR code reading and scanning work properly. For frontend, we will focus on creating simple layouts for all the webpages and check that all web pages and nav links in the menu bar navigate correctly based on the role of an account user.
 
-[Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2):
+Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2):
+
+<img src="doc/M1.png" alt="">
 
 ### Milestone 3: Expected Upcoming Issues
 
 We expect the following issues to continue toward Milestone 3:
 
-[Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/2/views/2):
+[Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2):
 
+<img src="doc/M1.png" alt="">
 
 ## Team
 
@@ -357,6 +360,9 @@ Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.
 As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
 
 Need to do:
+1. Update mockup page screenshots
+3. Update Milestones sections
+4. Check if all links work on page
 6. Pitch
 8. (Make team logo)
 -->
