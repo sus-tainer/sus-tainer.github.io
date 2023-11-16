@@ -143,9 +143,9 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Deployment
 
-<div style="padding-bottom: 50px">
 You can view our deployed app [**here**](http://146.190.145.195/): [http://146.190.145.195/](http://146.190.145.195/)
-</div>
+
+<br>
 
 ## Development History
 
@@ -165,7 +165,7 @@ The goal of Milestone 2 is to create all the basic components of the app. For ba
 
 Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2):
 
-<img src="doc/M1.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+<img src="doc/M2.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Milestone 3: Expected Upcoming Issues
 
