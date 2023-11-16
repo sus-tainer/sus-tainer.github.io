@@ -15,8 +15,9 @@
   * [Milestone 2](#milestone-2-expected-upcoming-issues)
 * [Team](#team)
 * [Developer Guide](#developer-guide)
+  * [Download & Installation](#installation)
+  * [Deployment](#deployment)
 * [Community Feedback](#community-feedback)
-* [Deployment](#deployment)
 
 ## Overview
 
@@ -116,38 +117,6 @@ There is also a percentage graphic to show the retention rate of the containers.
   <img width="400px" src="doc/red-warning.png" alt="" class="img p-3" >
 </div>
 
-## Development History
-
-The following describes the process of building the app from the design process to code implementation and deployment. Our progress is as follows:
-
-## Milestone 1: Identifying Basic User Needs & Mockup Page Development
-
-The goal of Milestone 1 was to create a work flow for the app to identify its main features to solve the problem of user accountability and container retention rate. We focused on creating a mockup of the app's UI.
-
-Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github.com/orgs/sus-tainer/projects/1/views/2):
-
-<img src="doc/M1.png" alt="">
-
-## Milestone 2: Expected Upcoming Issues
-
-We expect the following issues to continue toward Milestone 2:
-
-[Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2):
-
-
-## Team
-
-**[Our team contract](https://docs.google.com/document/d/14BCHuLKtjr0m7UcoQ2BcsHvO0r9Z21xhZkRsPpTkm4c/edit?usp=sharing)**
-
-Sustainer is designed and developed by:
-* [**Aaron Lander Ancheta**](https://github.com/aaron-ancheta) || [View Profile](https://aaron-ancheta.github.io/)
-* [**Nathaniel Murray**](https://github.com/murrayn808) || [View Profile](https://murrayn808.github.io/)
-* [**Jaren Pinera**](https://github.com/jpinera) || [View Profile](https://jpinera.github.io/)
-* [**Thomas Rivera**](https://github.com/thomasarivera) || [View Profile](https://thomasarivera.github.io/)
-* [**Sage Suzuki**](https://github.com/sage-suzuki) || [View Profile](https://sage-suzuki.github.io/)
-
-
-
 ## Developer Guide
 
 This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
@@ -172,16 +141,52 @@ $ meteor npm run start
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
 
+### Deployment
+
+**_Our app deployment is in progress_**
+
+## Development History
+
+The following describes the process of building the app from the design process to code implementation and deployment. Our progress is as follows:
+
+### Milestone 1: Identifying Basic User Needs & Mockup Page Development
+
+The goal of Milestone 1 was to create a work flow for the app to identify its main features to solve the problem of user accountability and container retention rate. We focused on creating a mockup of the app's UI.
+
+Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github.com/orgs/sus-tainer/projects/1/views/2):
+
+<img src="doc/M1.png" alt="">
+
+### Milestone 2: Expected Upcoming Issues
+
+We expect the following issues to continue toward Milestone 2:
+
+[Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2):
+
+### Milestone 3: Expected Upcoming Issues
+
+We expect the following issues to continue toward Milestone 3:
+
+[Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/2/views/2):
+
+
+## Team
+
+**[Our team contract](https://docs.google.com/document/d/14BCHuLKtjr0m7UcoQ2BcsHvO0r9Z21xhZkRsPpTkm4c/edit?usp=sharing)**
+
+Sustainer is designed and developed by:
+* [**Aaron Lander Ancheta**](https://github.com/aaron-ancheta) || [View Profile](https://aaron-ancheta.github.io/)
+* [**Nathaniel Murray**](https://github.com/murrayn808) || [View Profile](https://murrayn808.github.io/)
+* [**Jaren Pinera**](https://github.com/jpinera) || [View Profile](https://jpinera.github.io/)
+* [**Thomas Rivera**](https://github.com/thomasarivera) || [View Profile](https://thomasarivera.github.io/)
+* [**Sage Suzuki**](https://github.com/sage-suzuki) || [View Profile](https://sage-suzuki.github.io/)
+
+
 ## Community Feedback
 
 **_In progress_**
 
 We are interested in your experience using Sustainer! A form will soon be created to list any suggestions on improving the app.
-
-
-## Deployment
-
-**_Our app deployment is in progress_**
 
 
 <!--
@@ -352,8 +357,6 @@ Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.
 As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
 
 Need to do:
-1. M1 and M2 project fix w/ issues, then right screenshot (check if correct)
-5. Copy all contents to repo and name issue branches accordingly
 6. Pitch
 8. (Make team logo)
 -->
