@@ -9,13 +9,14 @@
 * [Application Design](#application-design)
   * [Data Model](#data-model)
   * [Flowchart](#application-flowchart)
-* [User Guide](#user-guide-mockups)
+* [User Guide](#user-guide-updated-progress)
 * [Developer Guide](#developer-guide)
   * [Download & Installation](#installation)
   * [Deployment](#deployment)
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-identifying-basic-user-needs--mockup-page-development)
-  * [Milestone 2](#milestone-2-expected-upcoming-issues)
+  * [Milestone 2](#milestone-2-basic-skeleton-of-all-pages-qr-code-functionality)
+  * [Milestone 3](#milestone-3-expected-upcoming-issues)
 * [Team](#team)
 * [Community Feedback](#community-feedback)
 
@@ -201,11 +202,11 @@ We expect the following issues to continue toward Milestone 3:
 **[Our team contract](https://docs.google.com/document/d/14BCHuLKtjr0m7UcoQ2BcsHvO0r9Z21xhZkRsPpTkm4c/edit?usp=sharing)**
 
 Sustainer is designed and developed by:
-* [**Aaron Lander Ancheta**](https://github.com/aaron-ancheta) || [View Profile](https://aaron-ancheta.github.io/)
-* [**Nathaniel Murray**](https://github.com/murrayn808) || [View Profile](https://murrayn808.github.io/)
-* [**Jaren Pinera**](https://github.com/jpinera) || [View Profile](https://jpinera.github.io/)
-* [**Thomas Rivera**](https://github.com/thomasarivera) || [View Profile](https://thomasarivera.github.io/)
-* [**Sage Suzuki**](https://github.com/sage-suzuki) || [View Profile](https://sage-suzuki.github.io/)
+* [**Aaron Lander Ancheta**](https://github.com/aaron-ancheta) || [View Portfolio](https://aaron-ancheta.github.io/)
+* [**Nathaniel Murray**](https://github.com/murrayn808) || [View Portfolio](https://murrayn808.github.io/)
+* [**Jaren Pinera**](https://github.com/jpinera) || [View Portfolio](https://jpinera.github.io/)
+* [**Thomas Rivera**](https://github.com/thomasarivera) || [View Portfolio](https://thomasarivera.github.io/)
+* [**Sage Suzuki**](https://github.com/sage-suzuki) || [View Portfolio](https://sage-suzuki.github.io/)
 
 
 ## Community Feedback
