@@ -22,6 +22,7 @@
 ## Overview
 
 ### What is Sustainer?
+
 Sustainer is a reusable container tracking app that helps users and the non-profit Zero Waste O'ahu stay accountable for the return of reusable takeout containers at large events. The initial Full Cycle Takeout pilot program, responsible for creating and renting out reusable takeout containers, has already shown promise in reducing waste for restaurants, but has struggled with the return of the containers. This makes the program unsustainable financially and unsustainable for the planet. Failing to solve this problem leads to more one-time use products becoming trash and more reusable containers needing to be produced. Sustainer aims to solve this problem by providing a platform for Zero Waste O'ahu to track rented out containers and provide incentives for their return. 
 
 ## Goals of the app
@@ -61,44 +62,63 @@ The fields labeled **PK** (Email for Accounts) indicate that this is a unique va
 <img src="doc/sustainer-flow-chart.png" alt="" style="padding-top: 5px; padding-bottom: 5px">
 
 
-## User Guide (Mockups)
+## User Guide
 
 This section provides a mockup walkthrough of the Sustainer user interface and its capabilities.
 
 ### Landing Page
+
 The landing page is presented to users when they first visit the site. It provides a brief overview and purpose of the app.
 
 <img src="doc/landing-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### UserRegistration Page
+
 To order the reusable containers at events, users must sign up by clicking on the "Sign up" dropdown menu in the upper right corner of the navbar. This registers the user into a system at a certain event and generates a QR code to act as an "ID" for the event.
 
 <img src="doc/register-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Login Page
+
 For returning users, click on the “Login” button in the dropdown located in upper right corner of the navbar, then select “Sign in” to go to get your newly-generated QR code for the event. You must have been previously registered with the system to use this option:
 
 <img src="doc/login-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### User Home Page
+
 After logging in, you are taken to the home page, which presents generic information on how to use the app. On this page, there are options to link your credit card information and get your QR code. 
 
 <img src="doc/user-home-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### QR Code Generator
+
 Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
 
 <img src="doc/qr-code-generator.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Payment Portal
+
 Clicking on "Choose Payment Method" will direct you to form where you can link and input your credit card information. Credit card information is used as collateral for any containers that are ordered and **not** returned within a specific limit or duration of the ongoing event. Upon ordering containers, there will be a pending charge based on the number of containers ordered, with each container charged at a flat rate. Payment will not be processed on your account if containers are returned before the end of the event.
 
 <img src="doc/payment-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Vendor Order Form
+
 Upon log in as a vendor, a form is displayed to allow vendors to order a certain number of containers for an event. This allows the Full Cycle Takeout program to accurately distribute the right number of containers to each vendor before a customer uses them when ordering take-out at the event.
 
 <img src="doc/vendor-order-form.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+### Vendor Order History Page
+
+Clicking on the "List Vendor Orders" nav link will show a history list of order forms that a vendor has filled out for all previous and upcoming events. Vendors will be able to edit current pending forms for an event that hasn't passed. They can also delete forms from their history.
+
+<img src="doc/vendor-order-history-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+### Scan QR Code Page
+
+After an event is over, moderators (workers) and administrators of the organization can use this page to scan QR codes on the containers and check them back in. This confirms that the user/consumer has returned all of their "assigned" containers from the event. Proper authorized accounts can only access this page by clicking on the "Scan Containers" nav link upon signing in. 
+
+<img src="doc/scan-containers-admin-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Admin Stats Page
 Upon log in as an admin, moderators and administrators can view all containers during an event to accurately track them. This will display all the available containers, as well as the owner that is assigned or responsible for a specific container. The database table UI will also have a search and filter function to find a certain container and check if a specific user has returned their containers respectively. 
@@ -173,7 +193,6 @@ We expect the following issues to continue toward Milestone 3:
 
 [Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2):
 
-<img src="doc/M1.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ## Team
 
