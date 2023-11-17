@@ -142,7 +142,11 @@ There is also a percentage graphic to show the retention rate of the containers.
 
 ## Developer Guide
 
-This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+### Deployment
+
+You can view our deployed app [**here**](https://sustainer.online): [https://sustainer.online](https://sustainer.online)
+
+The following section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
 
@@ -164,9 +168,6 @@ $ meteor npm run start
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
 
-### Deployment
-
-You can view our deployed app [**here**](https://sustainer.online): [https://sustainer.online](https://sustainer.online)
 
 <br>
 
