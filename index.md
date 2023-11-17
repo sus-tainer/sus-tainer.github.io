@@ -166,7 +166,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Deployment
 
-You can view our deployed app [**here**](http://146.190.145.195/): [http://146.190.145.195/](http://146.190.145.195/)
+You can view our deployed app [**here**](https://sustainer.online): [https://sustainer.online](https://sustainer.online)
 
 <br>
 
