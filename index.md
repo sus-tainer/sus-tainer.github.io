@@ -11,8 +11,9 @@
   * [Flowchart](#application-flowchart)
 * [User Guide](#user-guide-updated-progress)
 * [Developer Guide](#developer-guide)
-  * [Download & Installation](#installation)
   * [Deployment](#deployment)
+  * [Continuous Integration](#progress-and-development)
+  * [Download & Installation](#installation)
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-identifying-basic-user-needs--mockup-page-development)
   * [Milestone 2](#milestone-2-basic-skeleton-of-all-pages-qr-code-functionality)
@@ -153,6 +154,11 @@ Once submitted, the container will be added to the database and a QR code is gen
 ### Deployment
 
 You can view our deployed app [**here**](https://sustainer.online): [https://sustainer.online](https://sustainer.online)
+
+#### Progress and Development
+
+Continuous integration workflow of sustainer repo:
+[![ci-sustainer](https://github.com/sus-tainer/sustainer/actions/workflows/ci.yml/badge.svg)](https://github.com/sus-tainer/sustainer/actions/workflows/ci.yml)
 
 The following section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
