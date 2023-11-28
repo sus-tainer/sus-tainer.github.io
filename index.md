@@ -124,21 +124,29 @@ After an event is over, moderators (workers) and administrators of the organizat
 <img src="doc/scan-containers-admin-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Admin Stats Page
-Upon log in as an admin, moderators and administrators can view all containers during an event to accurately track them. This will display all the available containers, as well as the owner that is assigned or responsible for a specific container. The database table UI will also have a search and filter function to find a certain container and check if a specific user has returned their containers respectively. 
+Admins and moderators can view all containers during an event to accurately track them. This will display all the available containers, as well as the owner that is assigned or responsible for a specific container. The database table UI will also have a search and filter function to find a certain container and check if a specific user has returned their containers respectively. 
 
-<img src="doc/admin-stats-tracking-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+<img src="doc/container-list-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 There is also a percentage graphic to show the retention rate of the containers. The pie chart will update in real-time when containers are taken out and returned by customers at the event. An environmental graphic will also correspond with the percentage of the containers that are returned. This will indicate the effectiveness of the take-out and return procedure at events, while also evaluating the "efficiency" of this app's functionality.
 
 <div class="justify-content-center text-center p-4" style="padding-top: 5px; padding-bottom: 5px">
-  <img width="400px" src="doc/green-warning.jpg" alt="" class="img-thumbnail" >
-  <img width="400px" src="doc/blue-warning.png" alt="" class="img-thumbnail" >
+  <img width="400px" src="doc/pie-img-green.png" alt="" class="img-thumbnail" >
+  <img width="400px" src="doc/pie-img-blue.png" alt="" class="img-thumbnail" >
 </div>
 
 <div class="justify-content-center text-center p-4" style="padding-top: 5px; padding-bottom: 50px">
-  <img width="400px" src="doc/yellow-warning.png" alt="" class="img-thumbnail p-3" >
-  <img width="400px" src="doc/red-warning.png" alt="" class="img p-3" >
+  <img width="400px" src="doc/pie-img-yellow.png" alt="" class="img-thumbnail p-3" >
+  <img width="400px" src="doc/pie-img-red.png" alt="" class="img p-3" >
 </div>
+
+### Admin Adding Containers
+
+Admins and moderators can add containers to the database by clicking on the "Add Containers" nav link. This will display a form to select the container size to add to the database. This is useful when the organization needs to replace or add more containers to the database for an upcoming event.
+
+<img src="doc/add-container-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+Once submitted, the container will be added to the database and a QR code is generated for the container. A print button is also available to print the QR code for the container.
 
 ## Developer Guide
 
