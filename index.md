@@ -149,6 +149,8 @@ Admins and moderators can add containers to the database by clicking on the "Add
 
 Once submitted, the container will be added to the database and a QR code is generated for the container. A print button is also available to print the QR code for the container.
 
+<br>
+
 ## Developer Guide
 
 ### Deployment
@@ -156,6 +158,8 @@ Once submitted, the container will be added to the database and a QR code is gen
 You can view our deployed app [**here**](https://sustainer.online): [https://sustainer.online](https://sustainer.online)
 
 The following section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+<br>
 
 ### Continuous Integration
 
@@ -165,6 +169,8 @@ Sustainer uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/
 
 The workflow definition file is quite simple and is located at
 [.github/workflows/ci.yml](https://github.com/sus-tainer/sustainer/blob/main/.github/workflows/ci.yml).
+
+<br>
 
 ### Installation
 
