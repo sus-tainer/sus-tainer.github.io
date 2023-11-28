@@ -219,7 +219,7 @@ Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github
 
 We expect the following issues to continue toward Milestone 3:
 
-[Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
+Milestone 3 was managed using [Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
 
 
 ## Team
