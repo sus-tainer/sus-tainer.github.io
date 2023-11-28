@@ -12,7 +12,7 @@
 * [User Guide](#user-guide-updated-progress)
 * [Developer Guide](#developer-guide)
   * [Deployment](#deployment)
-  * [Continuous Integration](#progress-and-development)
+  * [Continuous Integration](#continuous-integration)
   * [Download & Installation](#installation)
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-identifying-basic-user-needs--mockup-page-development)
@@ -155,12 +155,16 @@ Once submitted, the container will be added to the database and a QR code is gen
 
 You can view our deployed app [**here**](https://sustainer.online): [https://sustainer.online](https://sustainer.online)
 
-#### Progress and Development
+The following section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
 
-Continuous integration workflow of sustainer repo:
+### Continuous Integration
+
 [![ci-sustainer](https://github.com/sus-tainer/sustainer/actions/workflows/ci.yml/badge.svg)](https://github.com/sus-tainer/sustainer/actions/workflows/ci.yml)
 
-The following section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+Sustainer uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/sus-tainer/sustainer/actions](https://github.com/sus-tainer/sustainer/actions).
+
+The workflow definition file is quite simple and is located at
+[.github/workflows/ci.yml](https://github.com/sus-tainer/sustainer/blob/main/.github/workflows/ci.yml).
 
 ### Installation
 
