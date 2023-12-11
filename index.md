@@ -217,7 +217,7 @@ Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github
 
 ### Milestone 3: Expected Upcoming Issues
 
-We expect the following issues to continue toward Milestone 3:
+Milestone 3 will focus on cleaning up the code base, updating UI format, and container ownership transfer. We will also focus on implementing the payment portal and payment manegement. QR code scanning will also be refined for both the vendor and admin users. 
 
 Milestone 3 was managed using [Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
 
@@ -239,6 +239,10 @@ Sustainer is designed and developed by:
 **_In progress_**
 
 We are interested in your experience using Sustainer! A form will soon be created to list any suggestions on improving the app.
+
+"The website is neat and simple to look at. I wouldn't mind using this at events." - **_Anonymous_**
+
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_Anonymous_**
 
 
 <!--
