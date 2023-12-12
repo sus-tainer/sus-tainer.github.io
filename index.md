@@ -10,6 +10,7 @@
   * [Data Model](#data-model)
   * [Flowchart](#application-flowchart)
 * [User Guide](#user-guide-updated-progress)
+* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
   * [Deployment](#deployment)
   * [Continuous Integration](#continuous-integration)
@@ -17,9 +18,9 @@
 * [Development History](#development-history)
   * [Milestone 1](#milestone-1-identifying-basic-user-needs--mockup-page-development)
   * [Milestone 2](#milestone-2-basic-skeleton-of-all-pages-qr-code-functionality)
-  * [Milestone 3](#milestone-3-expected-upcoming-issues)
+  * [Milestone 3](#milestone-3-app-cleanup)
 * [Team](#team)
-* [Community Feedback](#community-feedback)
+
 
 ## Overview
 
@@ -97,7 +98,7 @@ After logging in, you are taken to the home page, which presents generic informa
 Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
 
 <p align="center">
-    <img src="doc/qr-code-generator.png" alt="" height="750px" style="padding-top: 5px; padding-bottom: 50px; margin: auto">
+    <img src="doc/qr-code-generator.png" alt="" height="650px" style="padding-top: 5px; padding-bottom: 50px; margin: auto">
 </p>
 
 ### Payment Portal
@@ -148,6 +149,18 @@ Admins and moderators can add containers to the database by clicking on the "Add
 <img src="doc/add-container-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 Once submitted, the container will be added to the database and a QR code is generated for the container. A print button is also available to print the QR code for the container.
+
+<br>
+
+## Community Feedback
+
+**_In progress_**
+
+We are interested in your experience using Sustainer! A form will soon be created to list any suggestions on improving the app.
+
+"The website is neat and simple to look at. I wouldn't mind using this at events." - **_Anonymous_**
+
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_Anonymous_**
 
 <br>
 
@@ -209,18 +222,19 @@ Milestone 1 was managed using [Sustainer GitHub Project Board M1](https://github
 
 ### Milestone 2: Basic Skeleton of All Pages, QR Code Functionality
 
-The goal of Milestone 2 is to create all the basic components of the app. For backend, this includes implementing all the relational databases properly and ensuring that all functionalities for QR code reading and scanning work properly. For frontend, we will focus on creating simple layouts for all the webpages and check that all web pages and nav links in the menu bar navigate correctly based on the role of an account user.
+The goal of Milestone 2 was to create all the basic components of the app. For backend, this included implementing all the relational databases properly and ensuring that all functionalities for QR code reading and scanning work properly. For frontend, we focused on creating simple layouts for all the webpages and check that all web pages and nav links in the menu bar navigate correctly based on the role of an account user.
 
 Milestone 2 was managed using [Sustainer GitHub Project Board M2](https://github.com/orgs/sus-tainer/projects/2/views/2)
 
 <img src="doc/M2.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
-### Milestone 3: Expected Upcoming Issues
+### Milestone 3: App Cleanup
 
-Milestone 3 will focus on cleaning up the code base, updating UI format, and container ownership transfer. We will also focus on implementing the payment portal and payment manegement. QR code scanning will also be refined for both the vendor and admin users. 
+The goal of Milestone 3 was to focus on cleaning up the code base, updating UI format, and container ownership transfer. We also focused on implementing the payment portal and payment management. QR code scanning was refined for both the vendor and admin users. 
 
 Milestone 3 was managed using [Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
 
+<img src="doc/M2.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ## Team
 
@@ -232,18 +246,6 @@ Sustainer is designed and developed by:
 * [**Jaren Pinera**](https://github.com/jpinera) || [View Portfolio](https://jpinera.github.io/)
 * [**Thomas Rivera**](https://github.com/thomasarivera) || [View Portfolio](https://thomasarivera.github.io/)
 * [**Sage Suzuki**](https://github.com/sage-suzuki) || [View Portfolio](https://sage-suzuki.github.io/)
-
-
-## Community Feedback
-
-**_In progress_**
-
-We are interested in your experience using Sustainer! A form will soon be created to list any suggestions on improving the app.
-
-"The website is neat and simple to look at. I wouldn't mind using this at events." - **_Anonymous_**
-
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_Anonymous_**
-
 
 <!--
 ## Initialization
