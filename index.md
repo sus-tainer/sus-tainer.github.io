@@ -156,17 +156,17 @@ Once submitted, the container will be added to the database and a QR code is gen
 
 The following highlights some of the feedback that we received from UH community members on our Sustainer app.
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ UH Math major student_**
+"I like the idea behind the app's functionality. I think that having a QR code scanner for containers is pretty neat. However, it is a little buggy at times. I'm also not sure how reliable connection to the web app will be for outside events." - **_~ UH Math major student_**
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ UH Medical student_**
+"The interface has a very simple design and layout." - **_~ UH Medical student_**
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Former UH student_**
+"I found the options for a vendor or admin to be more interesting, though it was quite limited in terms of what I can as a user. In general, I think it's neat to have an app that is intended and usable towards different types of audiences." - **_~ Former UH student_**
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ UH Community Member_**
+"The approach of achieving sustainability through reusable containers and holding users accountable is unique. This app attempts to solve this problem in both an effective and simple manner." - **_~ UH Community Member_**
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Donator of UH community_**
+"My experience with this app from the user's and admin's point of view was pretty good. The navbar options was also a little confusing at times, but I like the clean layout and interesting graphics!" - **_~ Donator of UH community_**
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Anonymous_**
+"Users have noted that while our website's design is visually appealing and included unique features, there's a feeling of unpolished in its functionality. Feedback highlights our tailored approach for mobile and desktop platforms, but suggests a need for smoother integration. We acknowledge this valuable input and are committed to refining our features, aiming for a seamless, user-friendly experience that complements our site's aesthetic appeal." - **_~ Anonymous_**
 
 "The website is neat and simple to look at. I wouldn't mind using this at events." - **_~ Anonymous_**
 
@@ -244,6 +244,7 @@ The goal of Milestone 3 was to focus on cleaning up the code base, updating UI f
 
 Milestone 3 was managed using [Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
 
+<img src="doc/M3.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ## Team
 
