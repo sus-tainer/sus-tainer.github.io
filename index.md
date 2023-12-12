@@ -154,13 +154,23 @@ Once submitted, the container will be added to the database and a QR code is gen
 
 ## Community Feedback
 
-**_In progress_**
+The following highlights some of the feedback that we received from UH community members on our Sustainer app.
 
-We are interested in your experience using Sustainer! A form will soon be created to list any suggestions on improving the app.
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ UH Math major student_**
 
-"The website is neat and simple to look at. I wouldn't mind using this at events." - **_Anonymous_**
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ UH Medical student_**
 
-"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_Anonymous_**
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Former UH student_**
+
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ UH Community Member_**
+
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Donator of UH community_**
+
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Anonymous_**
+
+"The website is neat and simple to look at. I wouldn't mind using this at events." - **_~ Anonymous_**
+
+"There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Anonymous_**
 
 <br>
 
@@ -234,7 +244,6 @@ The goal of Milestone 3 was to focus on cleaning up the code base, updating UI f
 
 Milestone 3 was managed using [Sustainer GitHub Project Board M3](https://github.com/orgs/sus-tainer/projects/4/views/2)
 
-<img src="doc/M2.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ## Team
 
