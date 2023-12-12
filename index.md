@@ -9,7 +9,7 @@
 * [Application Design](#application-design)
   * [Data Model](#data-model)
   * [Flowchart](#application-flowchart)
-* [User Guide](#user-guide-updated-progress)
+* [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
   * [Deployment](#deployment)
@@ -65,7 +65,7 @@ The fields labeled **PK** (Email for Accounts) indicate that this is a unique va
 <img src="doc/sustainer-flow-chart.png" alt="" style="padding-top: 5px; padding-bottom: 5px">
 
 
-## User Guide (Updated Progress)
+## User Guide
 
 This section provides a walkthrough of the Sustainer web app including its user interface and its capabilities.
 
