@@ -176,13 +176,13 @@ Once submitted, the container will be added to the database and a QR code is gen
 
 ### Charge User Page
 
-On this page, an admin can charge 
+On this page, an admin can charge a user for a specific container that is not returned after the end of an event. This charge will be based on the credit card information that the user provided on their account.
 
 <img src="doc/charge-user-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Approve Orders Page
 
-afdsds.
+Admin can also approve or reject requested container forms that are created and edited made by a vendor. Once an action is performed, the specific incoming request is removed from the list. The vendor can then see the approval status for each form, as it is updated in real time.
 
 <img src="doc/admin-order-approval-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
