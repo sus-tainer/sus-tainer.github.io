@@ -202,6 +202,8 @@ The following highlights some of the feedback that we received from UH community
 
 * "The approach of achieving sustainability through reusable containers and holding users accountable is unique. This app attempts to solve this problem in both an effective and simple manner." - **_UH Community Member_**
 
+* "I like the idea that their website is straightforward and effectively serves its purpose. One suggestion is make another button to redirect back to homepage. The landing page has the Full Cycle Takeout program, which is informative to new users." - **_Anonymous_**
+
 * "My experience with this app from the user's and admin's point of view was pretty good. The navbar options was also a little confusing at times, but I like the clean layout and interesting graphics!" - **_Donator of UH community_**
 
 * "Users have noted that while our website's design is visually appealing and included unique features, there's a feeling of unpolished in its functionality. Feedback highlights our tailored approach for mobile and desktop platforms, but suggests a need for smoother integration. We acknowledge this valuable input and are committed to refining our features, aiming for a seamless, user-friendly experience that complements our site's aesthetic appeal." - **_Anonymous_**
