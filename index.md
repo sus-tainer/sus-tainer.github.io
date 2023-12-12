@@ -194,6 +194,8 @@ The following highlights some of the feedback that we received from UH community
 
 * "I like the idea behind the app's functionality. I think that having a QR code scanner for containers is pretty neat. However, it is a little buggy at times. I'm also not sure how reliable connection to the web app will be for outside events." - **_UH Math major student_**
 
+* "One critique i have is their FAQ boxes could be bigger so its like one of the first things you read especially to know what the QR code is for. But other than that their site is simple to use and does what it needs to. " - **_Anonymous_**
+
 * "The interface has a very simple design and layout." - **_UH Medical student_**
 
 * "I found the options for a vendor or admin to be more interesting, though it was quite limited in terms of what I can as a user. In general, I think it's neat to have an app that is intended and usable towards different types of audiences." - **_Former UH student_**
