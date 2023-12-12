@@ -75,6 +75,12 @@ The landing page is presented to users when they first visit the site. It provid
 
 <img src="doc/landing-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
+### About Page
+
+Clicking on the "About" nav link in the navigation bar will direct the user to the About page. This page briefly describes the issue and possible solution to sustaining the environment through reusable takeout containers. There is also background information on the nonprofit organization "Zero Waste Oahu", which helps facilitate a full cycle takeout program to users at large public events. 
+
+<img src="doc/about-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
 ### User Registration Page
 
 To order the reusable containers at events, users must sign up by clicking on the "Sign up" dropdown menu in the upper right corner of the navbar. This registers the user into a system at a certain event and generates a QR code to act as an "ID" for the event.
@@ -98,7 +104,7 @@ After logging in, you are taken to the home page, which presents generic informa
 Clicking on "Generate QR Code" will display the user's personal QR code. This will be used when the user orders food at the event. Customers will scan the QR at a food truck or vendor, which will "assign" those containers to them during the event. This helps admin keep track of the containers.
 
 <p align="center">
-    <img src="doc/qr-code-generator.png" alt="" height="350px" style="padding-top: 5px; padding-bottom: 50px; margin: auto">
+    <img src="doc/qr-code-generator.png" alt="" style="padding-top: 5px; padding-bottom: 50px; margin: auto">
 </p>
 
 ### Payment Portal
@@ -106,6 +112,12 @@ Clicking on "Generate QR Code" will display the user's personal QR code. This wi
 Clicking on "Choose Payment Method" will direct you to form where you can link and input your credit card information. Credit card information is used as collateral for any containers that are ordered and **not** returned within a specific limit or duration of the ongoing event. Upon ordering containers, there will be a pending charge based on the number of containers ordered, with each container charged at a flat rate. Payment will not be processed on your account if containers are returned before the end of the event.
 
 <img src="doc/payment-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+### Vendor Home Page
+
+After logging in as a vendor, there are options to scan a container to assign to a user, order containers for an event, view your order history, and view an inventory of the remaining containers that a vendor has. This is shown on the main page and in the nav bar.
+
+<img src="doc/vendor-home-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Vendor Order Form
 
@@ -115,9 +127,21 @@ Upon log in as a vendor, a form is displayed to allow vendors to order a certain
 
 ### Vendor Order History Page
 
-Clicking on the "List Vendor Orders" nav link will show a history list of order forms that a vendor has filled out for all previous and upcoming events. Vendors will be able to edit current pending forms for an event that hasn't passed. They can also delete forms from their history.
+Clicking on the "History" nav link will show a history list of order forms that a vendor has filled out for all previous and upcoming events. Vendors will be able to edit current pending forms for an event that hasn't passed. They can also delete forms from their history. An approval status for each order will show if an admin has either approved or rejected their order request of containers. The vendor can also tell if an approval is still pending.
 
 <img src="doc/vendor-order-history-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+### Vendor Inventory Page
+
+Clicking on the "Inventory" nav link will show the remaining containers that a vendor has left in stock. Vendors can add more containers by clicking on the "Order More" button, which will direct them to an order form page.
+
+<img src="doc/vendor-inventory-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+### Admin Home Page
+
+After logging in as an admin, there are options to add new containers to the database, scan a returned container, list all the containers at an event, charge a user accordingly, and approve any pending vendor orders. This is shown on the main page and in the nav bar. There is also a graphic displaying the current container retention rate to keep track of the progress during the event.
+
+<img src="doc/admin-home-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
 
 ### Scan QR Code Page
 
@@ -150,27 +174,39 @@ Admins and moderators can add containers to the database by clicking on the "Add
 
 Once submitted, the container will be added to the database and a QR code is generated for the container. A print button is also available to print the QR code for the container.
 
+### Charge User Page
+
+On this page, an admin can charge 
+
+<img src="doc/charge-user-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
+### Approve Orders Page
+
+afdsds.
+
+<img src="doc/admin-order-approval-page.png" alt="" style="padding-top: 5px; padding-bottom: 50px">
+
 <br>
 
 ## Community Feedback
 
 The following highlights some of the feedback that we received from UH community members on our Sustainer app.
 
-* "I like the idea behind the app's functionality. I think that having a QR code scanner for containers is pretty neat. However, it is a little buggy at times. I'm also not sure how reliable connection to the web app will be for outside events." - **_~ UH Math major student_**
+* "I like the idea behind the app's functionality. I think that having a QR code scanner for containers is pretty neat. However, it is a little buggy at times. I'm also not sure how reliable connection to the web app will be for outside events." - **_UH Math major student_**
 
-* "The interface has a very simple design and layout." - **_~ UH Medical student_**
+* "The interface has a very simple design and layout." - **_UH Medical student_**
 
-* "I found the options for a vendor or admin to be more interesting, though it was quite limited in terms of what I can as a user. In general, I think it's neat to have an app that is intended and usable towards different types of audiences." - **_~ Former UH student_**
+* "I found the options for a vendor or admin to be more interesting, though it was quite limited in terms of what I can as a user. In general, I think it's neat to have an app that is intended and usable towards different types of audiences." - **_Former UH student_**
 
-* "The approach of achieving sustainability through reusable containers and holding users accountable is unique. This app attempts to solve this problem in both an effective and simple manner." - **_~ UH Community Member_**
+* "The approach of achieving sustainability through reusable containers and holding users accountable is unique. This app attempts to solve this problem in both an effective and simple manner." - **_UH Community Member_**
 
-* "My experience with this app from the user's and admin's point of view was pretty good. The navbar options was also a little confusing at times, but I like the clean layout and interesting graphics!" - **_~ Donator of UH community_**
+* "My experience with this app from the user's and admin's point of view was pretty good. The navbar options was also a little confusing at times, but I like the clean layout and interesting graphics!" - **_Donator of UH community_**
 
-* "Users have noted that while our website's design is visually appealing and included unique features, there's a feeling of unpolished in its functionality. Feedback highlights our tailored approach for mobile and desktop platforms, but suggests a need for smoother integration. We acknowledge this valuable input and are committed to refining our features, aiming for a seamless, user-friendly experience that complements our site's aesthetic appeal." - **_~ Anonymous_**
+* "Users have noted that while our website's design is visually appealing and included unique features, there's a feeling of unpolished in its functionality. Feedback highlights our tailored approach for mobile and desktop platforms, but suggests a need for smoother integration. We acknowledge this valuable input and are committed to refining our features, aiming for a seamless, user-friendly experience that complements our site's aesthetic appeal." - **_Anonymous_**
 
-* "The website is neat and simple to look at. I wouldn't mind using this at events." - **_~ Anonymous_**
+* "The website is neat and simple to look at. I wouldn't mind using this at events." - **_Anonymous_**
 
-* "There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_~ Anonymous_**
+* "There's a lot of empty space in parts of the site. I think it would be better to fill it up with more information or designs." - **_Anonymous_**
 
 <br>
 
